@@ -17,4 +17,7 @@
 | ascii     | 尝试用 ascii 当数据编码 |
 | casesnt   | 根据大小写字符的特点用 and 和 or 做大小写转化 |
 | casarray  | 用数组的方式实现作大小写转化 |
-
+| sidi      | si 和 di 寄存器学习 |
+| sidi2     | si 和 di 寄存器配合 bx 使用 |
+| mcas      | 用 bx 做大小写转换 |
+| mcas2     | 用 bx 借助栈做二重循环的大小写转换 |
