@@ -21,3 +21,17 @@
 | sidi2     | si 和 di 寄存器配合 bx 使用 |
 | mcas      | 用 bx 做大小写转换 |
 | mcas2     | 用 bx 借助栈做二重循环的大小写转换 |
+| memory    | 在不使用寄存器的情况下如何访问内存 |
+| mix       | 综合应用 |
+| offset    | offset 使用示例，运行时修改代码 |
+| jmp       | 标号 jmp 命令 |
+| jmp2      | 尝试看段超过 65536 回怎么样，结果 masm 成功，link error |
+| jmpword   | 用 word ptr 做 jmp |
+| jmpdword  | 用 dword ptr 做 jmp |
+| jmpdata   | 从数据段取数据做 jmp |
+| jmpdata2  | 同上 |
+| jmpdata3  | 同上 |
+| jcxz      | 利用 jcxz 查第一个 0 出现的位置 |
+| loop      | 利用 loop 查第一个 0 出现的位置 |
+| strange   | 特别有意思的一份代码 |
+| color     | 显示颜色的代码 |
