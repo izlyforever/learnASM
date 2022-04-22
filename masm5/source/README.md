@@ -35,3 +35,21 @@
 | loop      | 利用 loop 查第一个 0 出现的位置 |
 | strange   | 特别有意思的一份代码 |
 | color     | 显示颜色的代码 |
+| ret       | ret 等价于 pop IP |
+| retf      | ret 等价于 pop IP 再 pop SS |
+| calln     | call 标号 （注意是执行之后的 IP）等价于 push IP 再 jmp near ptr 标号 |
+| callf     | call 标号 等价于 push IP 再 jmp fat ptr 标号 |
+| calli     | call ax 等价于 push IP 再 jmp ax，跳转到 内存 word 和 dword 也同 jmp 的操作 |
+| call1     | debug 和直接执行不一致的 call 代码 |
+| call2     | debug 和直接执行不一致的 call 代码 |
+| callret   | call 和 ret 一起使用 |
+| subprog   | 子程序调用 |
+| cap       | 固定长度字符串转换成大写 |
+| cap2      | 不定长度字符串转换成大写 |
+| cap3      | 不定长度字符串组转换成大写（子程序用到的寄存器都要先 push，后 pop）|
+| capbat    | 批量不定长度字符串组转换成大写（子程序用到的寄存器都要先 push，后 pop）|
+| showstr   | 调用子程序，打印彩色字符 |
+| divdw     | 解决除法移除问题 |
+
+
+
