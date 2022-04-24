@@ -1,3 +1,5 @@
+; 这里只是做一个简单尝试，看看存储的值
+
 assume cs:code, ds:data
 data segment
   db 'unIX'

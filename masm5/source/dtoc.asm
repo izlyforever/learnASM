@@ -9,7 +9,6 @@ start:
   mov ax, 12666
   mov bx, data
   mov ds, bx
-  mov si, 0
   call dtoc
 
   mov dh, 8
@@ -23,6 +22,8 @@ start:
 dtoc:
   push dx
   push cx
+  push si
+  mov si, 0
 sdtoc:
   mov cx, ax
   jcxz okdtoc
@@ -43,9 +44,12 @@ reverse:
   inc si
   loop reverse
 
+  pop si
   pop cx
   pop dx
   ret
+
+
 
 showstr:
   push es
