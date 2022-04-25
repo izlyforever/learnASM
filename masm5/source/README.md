@@ -64,6 +64,16 @@
 | myint7c   | 把中断当作简单的子程序使用，做乘法处理  |
 | myint7c2  | 把中断当作简单的子程序使用，做大小写转换 |
 | myint7c3  | 把中断当作简单的子程序使用，做大小写转换（用 data segment) |
+| intloop   | 用自定义中断实现循环的功能 |
+| intjmp    | 用自定义中断实现跳转的功能 |
+| intwel    | 用 int21 打印字符，用 int10 改变光标位置 |
+| intcolor  | 用 int21 显示闪烁字符，用 int10 改变光标位置 |
+| intpoem   | 用 int21 写诗一首 |
+| port      | 对端口进行操作 |
+| showtime  | 对 BIOS 的端口操作获取当前时间 |
+
+
+
 
 
 
