@@ -105,3 +105,7 @@
 - div 和 mul 没有一起讲会让人觉得有点离谱
 - 没有多文件编译的示例
 
+## 补充
+
+- 标志位寄存器：<https://en.wikipedia.org/wiki/FLAGS_register>
+- 各个寄存器的解释：<https://kader05cuet.files.wordpress.com/2014/09/introduction-to-80861.pdf>
