@@ -5,7 +5,7 @@
 本文件夹包含
 1. `DOSBox-0.74-3-3.dmg` 提供 Dos 环境，[配置方式](https://www.dosbox.com/wiki/Dosbox.conf)
 2. `masm5` 提供 Dos 环境下的汇编器（代码放在 `masm5/soruce/`)，以及 `masm5.zip` 确保环境不被破坏
-3. 王爽《汇编语言第三版》，侵删，王爽老师 yyds
+3. 王爽《汇编语言第三版》、《汇编语言第四版》，侵删，王爽老师 yyds
 
 > 学习的时候可以多想想汇编器应该怎么做
 
@@ -55,3 +55,5 @@ link hello;
 ```
 
 即可快速生成 `hello.exe`，然后就可以 `debug hello.exe`
+
+多文件需要利用 `.crf` 文件，目前没实践过
